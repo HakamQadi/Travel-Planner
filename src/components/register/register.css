@@ -48,6 +48,10 @@
 }
 .body button:hover {
   background-color: rgba(128, 128, 128, 0.392);
+  transform: scale(1.1);
+  transition: 0.5s;
+  color: #e8da42;
+  border: #e8da42 1px solid;
 }
 .body form h1 {
   margin-bottom: 30px !important;
@@ -61,4 +65,13 @@
 }
 .body a {
   text-decoration: none !important;
+}
+.body input:focus {
+  color: #e8da42;
+  border-bottom: 1px solid #e8da42;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.body input:focus::placeholder {
+  color: #e8da42;
 }
