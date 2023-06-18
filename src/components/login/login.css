@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
-.body {
+.body_ {
   display: flex;
   justify-content: center;
   height: 100vh;
@@ -16,15 +16,15 @@
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
     ),
-    url("https://images.pexels.com/photos/3769118/pexels-photo-3769118.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    url("https://images.pexels.com/photos/1831265/pexels-photo-1831265.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
 
   background-size: cover;
 }
-.body form {
+.body_ form {
   margin-top: 50px;
   text-align: center;
 }
-.body input {
+.body_ input {
   display: block;
   width: 350px;
   height: 40px;
@@ -36,7 +36,7 @@
   background: transparent;
   color: #fff;
 }
-.body button {
+.body_ button {
   width: 350px;
   height: 40px;
   font-size: 20px;
@@ -46,19 +46,19 @@
   border-radius: 16px !important;
   margin-top: 20px !important;
 }
-.body button:hover {
+.body_ button:hover {
   background-color: rgba(128, 128, 128, 0.392);
 }
-.body form h1 {
+.body_ form h1 {
   margin-bottom: 30px !important;
   color: #fff;
 }
 ::placeholder {
   color: #fff;
 }
-.body p {
+.body_ p {
   color: #ffffffac;
 }
-.body a {
+.body_ a {
   text-decoration: none !important;
 }
