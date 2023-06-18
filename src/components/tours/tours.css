@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(249, 249, 249);
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+.box_style_cat {
+    background: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+ul#cat_nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}

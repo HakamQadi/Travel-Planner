@@ -1,18 +1,43 @@
-import React from 'react'
+import React from "react";
+import "./tours.css";
 
 function Tours() {
   return (
     <>
-      <div className="card" style={{width: "18rem"}}>
-  <img src="..." className="card-img-top" alt="..."/>
-  <div className="card-body">
-    <h5 className="card-title">Card title</h5>
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" className="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
+     <div className="container">
+      <div className="row">
+        <div className="col-3">
+          <div className="box_style_cat">
+            <ul id="cat_nav">
+              <li>
+                <a href="/">
+                <i class="fa-thin fa-life-ring"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+         
+
+
+        <div className="col-9">
+          <div className="row">
+            <div className="col-6">
+            <h1>wajde</h1>
+
+            </div>
+            <div className="col-6">
+            <h1>wajde</h1>
+
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+
+
     </>
-  )
+  );
 }
 
-export default Tours
+export default Tours;
