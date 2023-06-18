@@ -4,8 +4,8 @@ import Home from "./components/home/Home";
 import Hotels from "./components/hotels/Hotels";
 import Login from "./components/login/Login";
 import Register from "./components/register/Register";
-import 'bootstrap/dist/css/bootstrap.css';
-
+import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/js/bootstrap";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Resturants from "./components/resturants/Resturants";
 import Tours from "./components/tours/Tours";
