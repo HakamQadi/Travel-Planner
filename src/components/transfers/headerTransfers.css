@@ -1,97 +1,29 @@
 
 
 .containerHT{
-    position: relative;
-    opacity:1 ;
-}
-
-
-
-
-.pa{
-    position: absolute;
-    top:1rem;
-    left: 5rem;
-    color: white;
-    font-size: small;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
-}
-
-.line{
- position: absolute;
- top: 7%;
-  left: 0;
-   width: 100%;
-border-color: black;
-}
-
-
-.top_links{
-   position: absolute;
-   top: 0rem;
-   right: 5rem;
-   
-}
-
-
-
-.top_links ul{
-    list-style: none;
-    display: flex;
-    
-}
-
-.top_links ul li a{
-    margin-left: 1rem;
-    text-decoration: none;
-    color: white;
-    font-size: small;
-}
-
-#wishlist_link svg{
-    margin-left: 1rem;
   
-
-}
-.LogoT{
-    position: absolute;
-    top: 5rem;
+    opacity: 0.8;
+    background-image: url("./imgTransfers/transfer_top.jpg");
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
     
 }
-.LogoT img{
-    width: 50%;
-}
 
-.menuTransfers{
-    position: absolute;
-    top: 4rem;
-    left: 30%;
-}
-
-.menuTransfers ul{
-    display: flex;
-    list-style: none;
-}
-.menuTransfers ul li{
-    margin-left: 5rem;
-
-}
-
-.menuTransfers ul li a{
-    text-decoration: none;
-    color: white;
-}
 
 .titelTransfers{
-    position: absolute;
-    top: 11rem;
-    left: 30%;
+    
     color: white;
     font-size: larger;
-
+    padding: 16% ;
+    align-items: center;
+    
 }
 
+
+
+/* <---------------start Map ----------> */
 #position {
     background-color: #fff;
     padding: 12px 0;
@@ -107,4 +39,10 @@ border-color: black;
 .containerMap ul li{
     display: flex; 
     margin-left: 10px;
+}
+
+
+.containerMap ul li a{
+    text-decoration: none;
+    color: black;
 }

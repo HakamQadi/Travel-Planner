@@ -1,3 +1,40 @@
 body{
     background-color: #f9f9f9;
 }
+
+.row{
+    margin-top: 5%;
+}
+
+.Filters{
+    
+    border-bottom: 1px solid #ededed;
+    background-color: #fff;
+    padding: 1rem;
+
+}
+
+
+svg{
+    margin: 1rem;
+}
+
+
+
+
+.irs-with-grid {
+    height: 60px;
+}
+.irs {
+    height: 40px;
+}
+.irs {
+    position: relative;
+    display: block;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
