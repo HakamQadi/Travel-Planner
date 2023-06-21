@@ -10,7 +10,7 @@ const Header = () => {
                     <div className="col-12">
                         <nav className="main-nav">
                             <Link to="/" className="logo">
-                                <img src="assets/images/logo.png" alt="" />
+                                <img src="assets/images/logo-no-background.png" alt="" />
                             </Link>
                             <ul className="nav">
                                 <li><NavLink to="/" >Home</NavLink></li>
