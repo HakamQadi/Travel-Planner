@@ -33,7 +33,7 @@ const BestLocations = () => {
                                     <div
                                         key={index}
                                         className={`option ${activeOption === index ? 'active' : ''}`}
-                                        style={{ backgroundImage: `url(${option.img})`, backgroundRepeat: 'no-repeat' , backgroundSize:"cover" }}
+                                        style={{ backgroundImage: `url(${option.img})`, backgroundRepeat: 'no-repeat', backgroundSize: "cover" }}
                                         onClick={() => handleOptionClick(index)}
                                     >
                                         <div className="shadow"></div>
@@ -51,7 +51,7 @@ const BestLocations = () => {
                             </div>
                         </div>
                         <div className="col-lg-12">
-                            <div style={{marginBottom:'3rem'}} className="main-button text-center">
+                            <div style={{ marginBottom: '3rem' }} className="main-button text-center">
                                 <Link to="/deals">Discover All Places</Link>
                             </div>
                         </div>

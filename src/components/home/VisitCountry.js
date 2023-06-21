@@ -28,7 +28,7 @@ const VisitCountry = () => {
                           <div className="row">
                             <div className="col-lg-4 col-sm-5">
                               <div className="image">
-                                <img src={item.img} style={{height:'22rem',objectFit:'cover'}} alt="" />
+                                <img src={item.img} style={{ height: '22rem', objectFit: 'cover' }} alt="" />
                               </div>
                             </div>
                             <div className="col-lg-8 col-sm-7">
@@ -36,7 +36,7 @@ const VisitCountry = () => {
                                 <h4>{item.name}</h4>
                                 <span>{item.category}</span>
                                 <div className="main-button">
-                                  <Link to="/about">Explore More</Link>
+                                  <Link to={`/details/${item.id}`}>Explore More</Link>
                                 </div>
                                 <p>{item.description}</p>
                                 <ul className="info">
@@ -51,13 +51,10 @@ const VisitCountry = () => {
                           </div>
                         </div>
                       )
-                    }).slice(0,3)}
-
-
+                    }).slice(0, 3)}
                   </div>
-
                   {/* navigation numbers */}
-                  <div style={{marginBottom:'5rem'}} className="col-lg-12">
+                  <div style={{ marginBottom: '5rem' }} className="col-lg-12">
                     <ul className="page-numbers">
                       <li><Link to="/"><i className="fa fa-arrow-left"></i></Link></li>
                       <li><Link to="/">1</Link></li>
