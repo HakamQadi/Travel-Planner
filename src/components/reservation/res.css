@@ -1,21 +1,28 @@
 .blur {
-    filter: blur(5px);
+  filter: blur(5px) !important;
 }
+
 .reservation-success {
-  position: absolute !important;
-  top: 150% !important;
-  left: 35% !important;
+  position: fixed !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
   background-color: #fff !important;
   border-radius: 16px !important;
   padding: 25px !important;
-  filter: none; /* Remove the blur effect for the reservation-success element */
+  filter: none !important;
+  z-index: 9999 !important; /* Ensure the window is displayed above other elements */
 }
 
-.reservation-success-content h3 {
+.reservation-success-message {
+  text-align: center !important;
+}
+
+.reservation-success-message h2 {
   color: green !important;
 }
 
-.reservation-success-content button {
+.reservation-success-message button {
   margin-top: 10px !important;
   z-index: 1 !important;
   position: relative !important;
@@ -25,30 +32,22 @@
   padding: 0.5em 1em !important;
   outline: none !important;
   border: none !important;
-  background-color: hsl(236, 70%, 74%) !important;
-  border-radius: 16px;
+  background-color: #22b3c1 !important;
+  border-radius: 16px !important;
 }
 
-.reservation-success-content button::before {
-  content: "";
-  z-index: -1;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #22b3c1;
-  transform-origin: center right;
-  transform: scaleX(0);
-  transition: transform 0.25s ease-in-out;
-  border-radius: 16px;
+.reservation-success-message button:hover {
+  cursor: pointer !important;
+  border: 1px solid #22b3c1 !important;
+  background-color: #fff !important;
+  color: #22b3c1 !important;
 }
-
-.reservation-success-content button:hover {
-  cursor: pointer;
-}
-
-.reservation-success-content button:hover::before {
-  transform-origin: center left;
-  transform: scaleX(1);
+/* 
+.reservation-success-message button:hover::before {
+  transform-origin: center left !important;
+  transform: scaleX(1) !important;
+} */
+.reservation-success-message span {
+  font-weight: bold !important;
+  color: #22b3c1 !important;
 }
