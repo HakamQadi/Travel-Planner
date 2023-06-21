@@ -8,8 +8,7 @@ const Footer = () => {
           <div class="row">
             
             <div class="col-lg-12">
-              <p>Copyright © 2023 <a href="/">Scrums team</a> Company. All rights reserved.
-                <br />Design: <a href="https://templatemo.com" title="free CSS templates">TemplateMo</a></p>
+              <p>Copyright © 2023 <a href="/">Let`s Go</a> Company. All rights reserved.</p>
             </div>
           </div>
         </div>

@@ -74,7 +74,7 @@ const VisitCountry = () => {
                 <div className="row">
                   <div className="col-lg-12">
                     <div id="map">
-                      <iframe title='/' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d433868.6382314492!2d35.61796774856914!3d31.835918820475523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151b5fb85d7981af%3A0x631c30c0f8dc65e8!2sAmman!5e0!3m2!1sen!2sjo!4v1687342178513!5m2!1sen!2sjo" width="100%" height="550px" frameborder="0" style={{ border: '0', borderRadius: '23px' }} allowfullscreen=""></iframe>
+                      <iframe title='/' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13541.182439619848!2d35.92971506183624!3d31.952876190921465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151b5f86956dc02d%3A0xa9edbdbd70c4d41c!2z2KzYqNmEINi52YXYp9mG2Iwg2LnZhdmR2KfZhg!5e0!3m2!1sar!2sjo!4v1687349991175!5m2!1sar!2sjo" width="100%" height="550px" frameborder="0" style={{ border: '0', borderRadius: '23px' }} allowfullscreen=""></iframe>
                     </div>
                   </div>
                 </div>
