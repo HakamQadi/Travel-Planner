@@ -1,0 +1,17 @@
+.header_btn{
+    background-color: #fff;
+    display: block !important ;
+    font-weight: 400 !important ;
+    font-size: 15px !important ;
+    text-transform: capitalize !important ;
+    color: #22b3c1 !important ;
+    -webkit-transition: all 0.3s ease 0s !important ;
+    -moz-transition: all 0.3s ease 0s !important ;
+    -o-transition: all 0.3s ease 0s !important ;
+    transition: all 0.3s ease 0s !important ;
+    border: transparent !important ;
+    padding: 8px 15px !important ;
+    position: relative !important ;
+    border-radius: 18px !important ;
+    letter-spacing: 0.5px !important ;
+}
