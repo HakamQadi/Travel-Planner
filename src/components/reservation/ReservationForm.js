@@ -101,21 +101,21 @@ function ReservationForm() {
                 <div className="info-item">
                   <i className="fa fa-phone"></i>
                   <h4>Make a Phone Call</h4>
-                  <a href="/">+123 456 789 (0)</a>
+                  <a href="/">+962773658436</a>
                 </div>
               </div>
               <div className="col-lg-4 col-sm-6">
                 <div className="info-item">
                   <i className="fa fa-envelope"></i>
                   <h4>Contact Us via Email</h4>
-                  <a href="/">company@email.com</a>
+                  <a href="/">lets.go@gmail.com</a>
                 </div>
               </div>
               <div className="col-lg-4 col-sm-6">
                 <div className="info-item">
                   <i className="fa fa-map-marker"></i>
                   <h4>Visit Our Offices</h4>
-                  <a href="/">24th Street North Avenue London, UK</a>
+                  <a href="/">Jordan , Amman , Jabal Amman</a>
                 </div>
               </div>
             </div>
