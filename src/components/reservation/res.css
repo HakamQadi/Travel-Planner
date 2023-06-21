@@ -1,0 +1,54 @@
+.blur {
+    filter: blur(5px);
+}
+.reservation-success {
+  position: absolute !important;
+  top: 220% !important;
+  left: 35% !important;
+  background-color: #fff !important;
+  border-radius: 16px !important;
+  padding: 25px !important;
+  filter: none; /* Remove the blur effect for the reservation-success element */
+}
+
+.reservation-success-content h3 {
+  color: green !important;
+}
+
+.reservation-success-content button {
+  margin-top: 10px !important;
+  z-index: 1 !important;
+  position: relative !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  color: white !important;
+  padding: 0.5em 1em !important;
+  outline: none !important;
+  border: none !important;
+  background-color: hsl(236, 70%, 74%) !important;
+  border-radius: 16px;
+}
+
+.reservation-success-content button::before {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #22b3c1;
+  transform-origin: center right;
+  transform: scaleX(0);
+  transition: transform 0.25s ease-in-out;
+  border-radius: 16px;
+}
+
+.reservation-success-content button:hover {
+  cursor: pointer;
+}
+
+.reservation-success-content button:hover::before {
+  transform-origin: center left;
+  transform: scaleX(1);
+}
