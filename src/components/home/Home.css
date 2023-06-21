@@ -1,0 +1,24 @@
+@media(max-width: 760px) {
+    .more_info {
+        display: flex !important;
+        justify-content: center !important;
+
+        background-color: transparent !important;
+    }
+    .my_btn a{
+        background-color: transparent !important;
+
+    }
+    .right-content h4{
+        font-size: 17px !important;
+    }
+    .right-content span{
+        font-size: 13px !important;
+    }    
+}
+.right-content h4{
+        display: flex;
+    }
+    .right-content span{
+        display: flex !important;
+    }

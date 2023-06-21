@@ -7,6 +7,7 @@ import Reservation from './components/reservation/Reservation';
 import Deals from './components/deals/Deals';
 // import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Route, Routes } from "react-router-dom";
+import Details from './components/details/Details';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/details" element={<Details />} />
           <Route path="/reservation" element={<Reservation />} />
           <Route path="/deals" element={<Deals />} />
 

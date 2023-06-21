@@ -8,25 +8,25 @@ import { Link } from 'react-router-dom'
 
 
 export default function AmazingDeals() {
- 
+
   const [filteredList, setFilteredList] = useState(tours)
 
-  const search =(event)=>{
+  const search = (event) => {
     let query = event.target.value;
 
-    let updatedList = tours.filter((item)=>{
+    let updatedList = tours.filter((item) => {
       return item.name.toLocaleLowerCase().includes(query.toLocaleLowerCase())
     })
-setFilteredList(updatedList)
+    setFilteredList(updatedList)
   }
- 
+
   return (
     <>
 
 
       {/* search */}
 
-      <div className="search-form">
+      <div id='majd' className="search-form">
         <div className="container">
           <div className="row">
             <div className="col-lg-12" style={{
@@ -39,8 +39,8 @@ setFilteredList(updatedList)
                     <fieldset >
                       <div className="search-box">
                         <button className="btn-search"><i className="fas fa-search"></i></button>
-                        <input type="text" className="input-search" 
-                        onChange={search} placeholder="Type to Search..." />
+                        <input type="text" className="input-search"
+                          onChange={search} placeholder="Type to Search..." />
                       </div>
                     </fieldset>
                   </div>

@@ -10,10 +10,10 @@ const AboutMain = () => {
                         <div className="col-lg-12">
                             <div className="content">
                                 <div className="blur-bg"></div>
-                                <h4>EXPLORE OUR COUNTRY</h4>
+                                <h4>EXPLORE OUR PLANET</h4>
                                 <div className="line-dec"></div>
-                                <h2>Welcome To Caribbean</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt uttersi labore et dolore magna aliqua is ipsum suspendisse ultrices gravida</p>
+                                <h2>Welcome</h2>
+                                <p>Embark on Unforgettable Escapes: Where Memories are Made</p>
                                 <div className="main-button">
                                     <Link to="/reservation">Discover More</Link>
                                 </div>

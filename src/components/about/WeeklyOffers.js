@@ -11,8 +11,7 @@ const WeeklyOffers = () => {
             <div className="section-heading text-center">
               <h2>Best Weekly Offers In Each City</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                do eiusmod tempor incididunt ut labore.
+              Escape the Ordinary: Find Your Bliss
               </p>
             </div>
           </div>

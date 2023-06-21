@@ -15,7 +15,7 @@ const MoreAbout = () => {
                         <div className="col-lg-6">
                             <div className="section-heading">
                                 <h2>Discover More About Our Country</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                                <p>Unwind, Explore, Repeat: Your Perfect Getaway Awaits.</p>
                             </div>
                             <div className="row">
                                 <div className="col-lg-6">
@@ -45,7 +45,6 @@ const MoreAbout = () => {
                                     </div>
                                 </div>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
                             <div className="main-button">
                                 <Link to="/reservation">Discover More</Link>
                             </div>

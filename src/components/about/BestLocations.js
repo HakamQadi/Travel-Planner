@@ -24,8 +24,7 @@ const BestLocations = () => {
                     <div className="row">
                         <div className="col-lg-6 offset-lg-3">
                             <div className="section-heading text-center">
-                                <h2>Best Locations In Caribbeans</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                                <h2>Our Best Destinations</h2>
                             </div>
                         </div>
                         <div className="col-lg-8 offset-lg-2">
