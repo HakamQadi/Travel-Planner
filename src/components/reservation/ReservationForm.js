@@ -98,6 +98,9 @@ function ReservationForm() {
               </div>
               <div className="col-lg-12">
                 <form
+                  style={{
+                    position: 'relative',
+                  }}
                   id="reservation-form"
                   name="gs"
                   method="submit"
@@ -231,7 +234,6 @@ function ReservationForm() {
           </div>
         </div>
       </div>
-
       {reservationSuccess && (
         <div className="reservation-success">
           <div className="reservation-success-content">
@@ -260,6 +262,8 @@ function ReservationForm() {
           </div>
         </div>
       )}
+
+
     </>
   );
 }
