@@ -26,7 +26,7 @@ export default function AmazingDeals() {
 
       {/* search */}
 
-      <div id='majd' className="search-form">
+      <div id='firstDiv' className="search-form">
         <div className="container">
           <div className="row">
             <div className="col-lg-12" style={{

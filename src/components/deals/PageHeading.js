@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 export default function PageHeading() {
   return (
@@ -10,7 +9,7 @@ export default function PageHeading() {
             <div className="col-lg-12">
               <h4>Discover Our Weekly Offers</h4>
               <h2>Amazing Prices &amp; More</h2>
-              <div className="border-button"><a href="#majd">Discover More</a></div>
+              <div className="border-button"><a href="#firstDiv">Discover More</a></div>
             </div>
           </div>
         </div>
